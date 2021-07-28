@@ -1,0 +1,30 @@
+.form {
+    width: 50vw;
+    min-width: 400px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form__textField {
+    width: 50vw;
+    max-width: 600px;
+    margin: 10px !important;
+}
+
+.form__submit {
+    margin: 20px auto 10px;
+}
+
+.form__submit > .MuiButton-root {
+    border: 1px solid #1976d2;
+    color: #1976d2;
+    margin: 0 8px;
+}
+
+.form__submit > .MuiButton-root:hover {
+    border: 1px solid #1976d2;
+}
+
+span.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorPrimary {
+    color: #1976d2;
+}

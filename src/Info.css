@@ -1,0 +1,23 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info b, .info span {
+    margin: 8px;
+    color: #000000de;
+    font-size: 18px;
+}
+
+.info__grid {
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+
+.mailInfo > p {
+    margin: 20px auto;
+    font-size: 18px;
+    color: #1976d2;
+}
