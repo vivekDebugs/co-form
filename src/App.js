@@ -8,7 +8,7 @@ function App() {
   const [{ submit }] = useStateValue()
   return (
     <div className="app">
-      <h1>Material Form</h1>
+      <h1>Lorem Ipsum</h1>
       <Form />
       {submit ? <Info /> : ''}
     </div>
